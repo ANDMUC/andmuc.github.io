@@ -1,0 +1,25 @@
+// sadaļa "Kontakti"
+
+.mapouter {
+  margin-top: 40px;
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 500px;
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 500px;
+  }
+}
+.tel-and-email {
+  margin-top: 10px;
+  @include flexCenter(row);
+  justify-content: space-around;
+  width: 500px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

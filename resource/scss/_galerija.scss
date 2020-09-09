@@ -1,0 +1,19 @@
+// sadaļa "Galerija"
+
+.gallery-parent-div {
+  width: 100%;
+  margin-top: 40px;
+  @include flexCenter(row);
+  justify-content: space-around;
+  img {
+    width: 400px;
+    height: 280px;
+    border-radius: 5px;
+  }
+  h2 {
+    font-family: "Gotham";
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+  }
+}

@@ -1,0 +1,8 @@
+footer {
+  @include flexCenter(row);
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(to right, #ffffff, #ffefba);
+  position: fixed;
+  bottom: 0;
+}

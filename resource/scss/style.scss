@@ -1,0 +1,55 @@
+@import "./mixin";
+@import "./header";
+@import "./sakums";
+@import "./par-mums";
+@import "./galerija";
+@import "./kontakti";
+@import "./anchor_link";
+@import "./footer";
+@import "./@media";
+
+@font-face {
+  src: url("../../assets/fonts/GothamMedium.ttf");
+  font-family: "Gotham";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background: #ebedee;
+}
+
+main {
+  margin: 0 10px;
+  padding-top: 85px;
+  padding-bottom: 105px;
+  section {
+    @include flexCenter(column);
+    padding-top: 40px;
+    font-family: "Gotham";
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .links {
+      @include flexCenter(column);
+    }
+    .links a {
+      padding-top: 5px;
+      text-decoration: none;
+      &:hover {
+        color: black;
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+    }
+  }
+}

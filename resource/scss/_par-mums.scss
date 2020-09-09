@@ -1,0 +1,17 @@
+// sadaļa "Par mums"
+
+.about-us-photo-text-1,
+.about-us-photo-text-2 {
+  @include flexCenter(row);
+  margin-top: 40px;
+  .left-picture {
+    width: 500px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .right-picture {
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+// Anchor-link
+
+.anchor-link {
+  @include flexCenter(column);
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 80px;
+  left: 1315px;
+  a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+  }
+}
